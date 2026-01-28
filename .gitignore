@@ -1,3 +1,74 @@
-venv
-.env
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
 
+# ----------------------
+# Virtual Environments
+# ----------------------
+venv/
+.venv/
+env/
+ENV/
+
+# ----------------------
+# Environment Files
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+
+# ----------------------
+# Jupyter Notebook
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# ML / Data Science
+# ----------------------
+data/
+datasets/
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# ----------------------
+# Build / Distribution
+# ----------------------
+build/
+dist/
+*.egg-info/
+
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# Test / Coverage
+# ----------------------
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ----------------------
+# Docker
+# ----------------------
+*.tar
+docker-compose.override.yml
